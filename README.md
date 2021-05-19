@@ -30,7 +30,7 @@
     - 확장자가 .exe 인 파일을 요청받았을 때   
   5. logback 을 사용하여 로깅 작업 구현완료   
     - 로그 파일을 하루 단위로 분리함 (was/logs 폴더의 logback.log 파일)   
-    - 로그 내용에 따라 적절한 로그 레벨을 적용함   
+    - 로그 내용에 따라 적절한 로그 레벨을 적용함(INFO, WARN, ERROR)   
     - 오류 발생 시, StackTrace 전체를 로그 파일에 남김   
   6. WAS 로직 구현완료   
     - 서로 다른 패키지에 존재하는 SimpleServlet 인터페이스 구현체 Hello.java 클래스 작성   
