@@ -1,0 +1,1 @@
+{"port":8080, "hosts":[{"name":"a.com", "root_path":"src/main/resources/a.com", "error403":"error403.html", "error404":"error404.html", "error500":"error500.html"}, {"name":"b.com", "root_path":"src/main/resources/b.com", "error403":"error403.html", "error404":"error404.html", "error500":"error500.html"}]}

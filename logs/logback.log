@@ -1,0 +1,1418 @@
+[2021-05-19 21:15:10:150][main] INFO  com.nhn.was.HttpServer - Accepting connections on port 8082
+[2021-05-19 21:15:10:152][main] INFO  com.nhn.was.HttpServer - Document Root: 
+a.com / src/main/resources/a.com
+b.com / src/main/resources/b.com
+[2021-05-19 21:15:12:2328][pool-1-thread-1] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:49833 : GET /d/a HTTP/1.1
+[2021-05-19 21:15:12:2335][pool-1-thread-1] WARN  com.nhn.was.RequestProcessor - Warning Log : GET /d/a HTTP/1.1 - 403 Forbidden
+[2021-05-19 21:31:56:152][main] INFO  com.nhn.was.HttpServer - Accepting connections on port 8082
+[2021-05-19 21:31:56:154][main] INFO  com.nhn.was.HttpServer - Document Root: 
+a.com / src/main/resources/a.com
+b.com / src/main/resources/b.com
+[2021-05-19 21:36:58:149][main] INFO  com.nhn.was.HttpServer - Accepting connections on port 80
+[2021-05-19 21:36:58:151][main] INFO  com.nhn.was.HttpServer - Document Root: 
+a.com / src/main/resources/a.com
+b.com / src/main/resources/b.com
+[2021-05-19 21:37:03:4833][pool-1-thread-1] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:50862 : GET / HTTP/1.1
+[2021-05-19 21:37:03:4835][pool-1-thread-1] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:50862
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:37:03:4835][pool-1-thread-1] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:50862
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:37:03:4836][pool-1-thread-2] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:50863 : GET / HTTP/1.1
+[2021-05-19 21:37:03:4836][pool-1-thread-2] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:50863
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:37:03:4837][pool-1-thread-2] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:50863
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:37:03:4838][pool-1-thread-3] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:50865 : GET / HTTP/1.1
+[2021-05-19 21:37:03:4838][pool-1-thread-3] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:50865
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:37:03:4838][pool-1-thread-3] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:50865
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:37:04:5859][pool-1-thread-4] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:50869 : GET / HTTP/1.1
+[2021-05-19 21:37:04:5859][pool-1-thread-4] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:50869
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:37:04:5859][pool-1-thread-4] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:50869
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:37:04:5860][pool-1-thread-5] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:50870 : GET / HTTP/1.1
+[2021-05-19 21:37:04:5860][pool-1-thread-5] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:50870
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:37:04:5860][pool-1-thread-5] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:50870
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:37:04:5861][pool-1-thread-6] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:50871 : GET / HTTP/1.1
+[2021-05-19 21:37:04:5862][pool-1-thread-6] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:50871
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:37:04:5862][pool-1-thread-6] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:50871
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:37:09:10877][pool-1-thread-7] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:50889 : GET / HTTP/1.1
+[2021-05-19 21:37:09:10877][pool-1-thread-7] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:50889
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:37:09:10878][pool-1-thread-7] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:50889
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:37:09:10878][pool-1-thread-8] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:50890 : GET / HTTP/1.1
+[2021-05-19 21:37:09:10878][pool-1-thread-8] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:50890
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:37:09:10880][pool-1-thread-8] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:50890
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:37:09:10881][pool-1-thread-9] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:50892 : GET / HTTP/1.1
+[2021-05-19 21:37:09:10881][pool-1-thread-9] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:50892
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:37:09:10882][pool-1-thread-9] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:50892
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:37:14:15988][pool-1-thread-10] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:50908 : GET / HTTP/1.1
+[2021-05-19 21:37:14:15988][pool-1-thread-10] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:50908
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:37:14:15988][pool-1-thread-10] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:50908
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:37:14:15989][pool-1-thread-11] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:50909 : GET / HTTP/1.1
+[2021-05-19 21:37:14:15989][pool-1-thread-11] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:50909
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:37:14:15989][pool-1-thread-11] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:50909
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:37:14:15990][pool-1-thread-12] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:50911 : GET / HTTP/1.1
+[2021-05-19 21:37:14:15990][pool-1-thread-12] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:50911
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:37:14:15990][pool-1-thread-12] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:50911
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:37:44:46010][pool-1-thread-13] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:50999 : GET / HTTP/1.1
+[2021-05-19 21:37:44:46011][pool-1-thread-13] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:50999
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:37:44:46011][pool-1-thread-13] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:50999
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:37:44:46011][pool-1-thread-14] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:51000 : GET / HTTP/1.1
+[2021-05-19 21:37:44:46011][pool-1-thread-14] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51000
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:37:44:46012][pool-1-thread-14] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51000
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:37:44:46013][pool-1-thread-15] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:51002 : GET / HTTP/1.1
+[2021-05-19 21:37:44:46014][pool-1-thread-15] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51002
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:37:44:46014][pool-1-thread-15] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51002
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:38:42:104237][pool-1-thread-16] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:51176 : GET / HTTP/1.1
+[2021-05-19 21:38:42:104238][pool-1-thread-16] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51176
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:38:42:104238][pool-1-thread-16] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51176
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:38:43:105258][pool-1-thread-17] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:51177 : GET / HTTP/1.1
+[2021-05-19 21:38:43:105258][pool-1-thread-17] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51177
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:38:43:105258][pool-1-thread-17] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51177
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:38:43:105259][pool-1-thread-18] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:51183 : GET / HTTP/1.1
+[2021-05-19 21:38:43:105259][pool-1-thread-18] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51183
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:38:43:105259][pool-1-thread-18] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51183
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:38:43:105260][pool-1-thread-19] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:51184 : GET / HTTP/1.1
+[2021-05-19 21:38:43:105261][pool-1-thread-19] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51184
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:38:43:105261][pool-1-thread-19] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51184
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:38:46:107449][pool-1-thread-20] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:51191 : GET /a HTTP/1.1
+[2021-05-19 21:38:46:107449][pool-1-thread-20] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51191
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:38:46:107449][pool-1-thread-20] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51191
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:38:46:107450][pool-1-thread-21] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:51192 : GET /a HTTP/1.1
+[2021-05-19 21:38:46:107450][pool-1-thread-21] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51192
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:38:46:107450][pool-1-thread-21] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51192
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:38:46:107451][pool-1-thread-22] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:51194 : GET /a HTTP/1.1
+[2021-05-19 21:38:46:107451][pool-1-thread-22] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51194
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:38:46:107451][pool-1-thread-22] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51194
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:38:47:108472][pool-1-thread-23] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:51198 : GET /a HTTP/1.1
+[2021-05-19 21:38:47:108472][pool-1-thread-23] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51198
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:38:47:108472][pool-1-thread-23] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51198
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:38:47:108473][pool-1-thread-24] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:51199 : GET /a HTTP/1.1
+[2021-05-19 21:38:47:108473][pool-1-thread-24] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51199
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:38:47:108473][pool-1-thread-24] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51199
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:38:47:108474][pool-1-thread-25] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:51200 : GET /a HTTP/1.1
+[2021-05-19 21:38:47:108474][pool-1-thread-25] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51200
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:38:47:108474][pool-1-thread-25] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51200
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:38:52:113489][pool-1-thread-26] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:51215 : GET /a HTTP/1.1
+[2021-05-19 21:38:52:113490][pool-1-thread-26] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51215
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:38:52:113490][pool-1-thread-26] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51215
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:38:59:121147][pool-1-thread-27] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:51216 : GET /a HTTP/1.1
+[2021-05-19 21:38:59:121148][pool-1-thread-27] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51216
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:38:59:121148][pool-1-thread-27] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51216
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:38:59:121148][pool-1-thread-28] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:51244 : GET /a HTTP/1.1
+[2021-05-19 21:38:59:121148][pool-1-thread-28] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51244
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:38:59:121148][pool-1-thread-28] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51244
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:38:59:121149][pool-1-thread-29] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:51246 : GET /a HTTP/1.1
+[2021-05-19 21:38:59:121149][pool-1-thread-29] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51246
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:38:59:121149][pool-1-thread-29] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51246
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:39:29:151169][pool-1-thread-30] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:51337 : GET /a HTTP/1.1
+[2021-05-19 21:39:29:151169][pool-1-thread-30] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51337
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:39:29:151169][pool-1-thread-30] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51337
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:39:29:151170][pool-1-thread-31] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:51338 : GET /a HTTP/1.1
+[2021-05-19 21:39:29:151170][pool-1-thread-31] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51338
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:39:29:151170][pool-1-thread-31] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51338
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:39:29:151171][pool-1-thread-32] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:51340 : GET /a HTTP/1.1
+[2021-05-19 21:39:29:151171][pool-1-thread-32] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51340
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:39:29:151171][pool-1-thread-32] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51340
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:39:44:165698][pool-1-thread-33] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:51386 : GET / HTTP/1.1
+[2021-05-19 21:39:44:165698][pool-1-thread-33] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51386
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:39:44:165698][pool-1-thread-33] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51386
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:39:44:165698][pool-1-thread-34] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:51387 : GET / HTTP/1.1
+[2021-05-19 21:39:44:165699][pool-1-thread-34] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51387
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:39:44:165699][pool-1-thread-34] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51387
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:39:44:165700][pool-1-thread-35] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:51389 : GET / HTTP/1.1
+[2021-05-19 21:39:44:165700][pool-1-thread-35] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51389
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:39:44:165700][pool-1-thread-35] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51389
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:39:45:166722][pool-1-thread-36] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:51393 : GET / HTTP/1.1
+[2021-05-19 21:39:45:166722][pool-1-thread-36] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51393
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:39:45:166722][pool-1-thread-36] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51393
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:39:45:166722][pool-1-thread-37] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:51394 : GET / HTTP/1.1
+[2021-05-19 21:39:45:166723][pool-1-thread-37] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51394
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:39:45:166723][pool-1-thread-37] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51394
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:39:45:166724][pool-1-thread-38] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:51395 : GET / HTTP/1.1
+[2021-05-19 21:39:45:166724][pool-1-thread-38] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51395
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:39:45:166724][pool-1-thread-38] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51395
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:39:49:155][main] INFO  com.nhn.was.HttpServer - Accepting connections on port 80
+[2021-05-19 21:39:49:156][main] INFO  com.nhn.was.HttpServer - Document Root: 
+a.com / src/main/resources/a.com
+b.com / src/main/resources/b.com
+[2021-05-19 21:39:50:613][pool-1-thread-1] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:51410 : GET / HTTP/1.1
+[2021-05-19 21:39:50:615][pool-1-thread-1] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51410
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:39:50:615][pool-1-thread-1] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51410
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:39:50:616][pool-1-thread-2] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:51411 : GET / HTTP/1.1
+[2021-05-19 21:39:50:616][pool-1-thread-2] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51411
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:39:50:616][pool-1-thread-2] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51411
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:39:50:617][pool-1-thread-3] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:51413 : GET / HTTP/1.1
+[2021-05-19 21:39:50:618][pool-1-thread-3] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51413
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:39:50:618][pool-1-thread-3] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51413
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:40:01:11272][pool-1-thread-4] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:51446 : GET / HTTP/1.1
+[2021-05-19 21:40:01:11273][pool-1-thread-4] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51446
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:40:01:11273][pool-1-thread-4] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51446
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:40:01:11273][pool-1-thread-5] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:51447 : GET / HTTP/1.1
+[2021-05-19 21:40:01:11273][pool-1-thread-5] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51447
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:40:01:11274][pool-1-thread-5] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51447
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:40:01:11275][pool-1-thread-6] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:51449 : GET / HTTP/1.1
+[2021-05-19 21:40:01:11275][pool-1-thread-6] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51449
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:40:01:11275][pool-1-thread-6] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51449
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:40:36:152][main] INFO  com.nhn.was.HttpServer - Accepting connections on port 80
+[2021-05-19 21:40:36:153][main] INFO  com.nhn.was.HttpServer - Document Root: 
+a.com / src/main/resources/a.com
+b.com / src/main/resources/b.com
+[2021-05-19 21:40:41:5024][pool-1-thread-1] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:51559 : GET / HTTP/1.1
+[2021-05-19 21:40:41:5026][pool-1-thread-1] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51559
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:40:41:5026][pool-1-thread-1] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51559
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:40:41:5027][pool-1-thread-2] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:51580 : GET / HTTP/1.1
+[2021-05-19 21:40:41:5028][pool-1-thread-2] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51580
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:40:41:5028][pool-1-thread-2] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51580
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:40:41:5029][pool-1-thread-3] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:51582 : GET / HTTP/1.1
+[2021-05-19 21:40:41:5029][pool-1-thread-3] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51582
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:40:41:5029][pool-1-thread-3] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51582
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:40:41:5197][pool-1-thread-4] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:51585 : GET / HTTP/1.1
+[2021-05-19 21:40:41:5198][pool-1-thread-4] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51585
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:40:41:5198][pool-1-thread-4] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51585
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:40:41:5198][pool-1-thread-5] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:51586 : GET / HTTP/1.1
+[2021-05-19 21:40:41:5198][pool-1-thread-5] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51586
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:40:41:5199][pool-1-thread-5] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51586
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:40:41:5199][pool-1-thread-6] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:51587 : GET / HTTP/1.1
+[2021-05-19 21:40:41:5200][pool-1-thread-6] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51587
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:40:41:5200][pool-1-thread-6] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51587
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:40:42:6218][pool-1-thread-7] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:51591 : GET / HTTP/1.1
+[2021-05-19 21:40:42:6219][pool-1-thread-7] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51591
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:40:42:6219][pool-1-thread-7] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51591
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:40:42:6219][pool-1-thread-8] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:51592 : GET / HTTP/1.1
+[2021-05-19 21:40:42:6220][pool-1-thread-8] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51592
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:40:42:6221][pool-1-thread-8] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51592
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:40:42:6222][pool-1-thread-9] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:51593 : GET / HTTP/1.1
+[2021-05-19 21:40:42:6223][pool-1-thread-9] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51593
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:40:42:6223][pool-1-thread-9] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51593
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:40:47:11237][pool-1-thread-10] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:51606 : GET / HTTP/1.1
+[2021-05-19 21:40:47:11237][pool-1-thread-10] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51606
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:40:47:11238][pool-1-thread-10] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51606
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:40:47:11238][pool-1-thread-11] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:51607 : GET / HTTP/1.1
+[2021-05-19 21:40:47:11239][pool-1-thread-11] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51607
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:40:47:11239][pool-1-thread-11] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51607
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:40:47:11240][pool-1-thread-12] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:51609 : GET / HTTP/1.1
+[2021-05-19 21:40:47:11240][pool-1-thread-12] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51609
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:40:47:11240][pool-1-thread-12] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51609
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:41:02:26079][pool-1-thread-13] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:51656 : GET / HTTP/1.1
+[2021-05-19 21:41:02:26079][pool-1-thread-13] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51656
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:41:02:26080][pool-1-thread-13] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51656
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:41:02:26080][pool-1-thread-14] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:51657 : GET / HTTP/1.1
+[2021-05-19 21:41:02:26080][pool-1-thread-14] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51657
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:41:02:26080][pool-1-thread-14] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51657
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:41:02:26081][pool-1-thread-15] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:51659 : GET / HTTP/1.1
+[2021-05-19 21:41:02:26081][pool-1-thread-15] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51659
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:41:02:26082][pool-1-thread-15] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:51659
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:41:16:152][main] INFO  com.nhn.was.HttpServer - Accepting connections on port 8081
+[2021-05-19 21:41:16:153][main] INFO  com.nhn.was.HttpServer - Document Root: 
+a.com / src/main/resources/a.com
+b.com / src/main/resources/b.com
+[2021-05-19 21:41:20:4651][pool-1-thread-1] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:58598 : GET / HTTP/1.1
+[2021-05-19 21:41:39:150][main] INFO  com.nhn.was.HttpServer - Accepting connections on port 8080
+[2021-05-19 21:41:39:152][main] INFO  com.nhn.was.HttpServer - Document Root: 
+a.com / src/main/resources/a.com
+b.com / src/main/resources/b.com
+[2021-05-19 21:41:39:309][pool-1-thread-1] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:58663 : GET / HTTP/1.1
+[2021-05-19 21:41:39:561][pool-1-thread-2] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:58661 : GET /favicon.ico HTTP/1.1
+[2021-05-19 21:41:39:562][pool-1-thread-2] WARN  com.nhn.was.RequestProcessor - Warning Log : GET /favicon.ico HTTP/1.1 - 404 File Not Found
+[2021-05-19 21:41:42:3492][pool-1-thread-3] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:58660 : GET / HTTP/1.1
+[2021-05-19 21:41:45:5938][pool-1-thread-5] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:58683 : GET / HTTP/1.1
+[2021-05-19 21:41:45:5988][pool-1-thread-6] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:58684 : GET /favicon.ico HTTP/1.1
+[2021-05-19 21:41:45:5989][pool-1-thread-6] WARN  com.nhn.was.RequestProcessor - Warning Log : GET /favicon.ico HTTP/1.1 - 404 File Not Found
+[2021-05-19 21:42:13:151][main] INFO  com.nhn.was.HttpServer - Accepting connections on port 80
+[2021-05-19 21:42:13:152][main] INFO  com.nhn.was.HttpServer - Document Root: 
+a.com / src/main/resources/a.com
+b.com / src/main/resources/b.com
+[2021-05-19 21:42:26:13047][pool-1-thread-1] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:58806 : GET / HTTP/1.1
+[2021-05-19 21:42:26:13049][pool-1-thread-1] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:58806
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:42:26:13049][pool-1-thread-1] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:58806
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:42:26:13050][pool-1-thread-2] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:58807 : GET / HTTP/1.1
+[2021-05-19 21:42:26:13050][pool-1-thread-2] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:58807
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:42:26:13050][pool-1-thread-2] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:58807
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:42:26:13051][pool-1-thread-3] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:58810 : GET / HTTP/1.1
+[2021-05-19 21:42:26:13051][pool-1-thread-3] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:58810
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:42:26:13051][pool-1-thread-3] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:58810
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:42:27:14092][pool-1-thread-4] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:58816 : GET / HTTP/1.1
+[2021-05-19 21:42:27:14093][pool-1-thread-4] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:58816
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:42:27:14093][pool-1-thread-4] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:58816
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:42:27:14094][pool-1-thread-5] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:58817 : GET / HTTP/1.1
+[2021-05-19 21:42:27:14094][pool-1-thread-5] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:58817
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:42:27:14094][pool-1-thread-5] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:58817
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:42:27:14095][pool-1-thread-6] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:58818 : GET / HTTP/1.1
+[2021-05-19 21:42:27:14095][pool-1-thread-6] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:58818
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:42:27:14095][pool-1-thread-6] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:58818
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:42:32:19109][pool-1-thread-7] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:58831 : GET / HTTP/1.1
+[2021-05-19 21:42:32:19109][pool-1-thread-7] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:58831
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:42:32:19110][pool-1-thread-7] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:58831
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:42:32:19110][pool-1-thread-8] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:58832 : GET / HTTP/1.1
+[2021-05-19 21:42:32:19111][pool-1-thread-8] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:58832
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:42:32:19112][pool-1-thread-8] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:58832
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:42:32:19113][pool-1-thread-9] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:58833 : GET / HTTP/1.1
+[2021-05-19 21:42:32:19113][pool-1-thread-9] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:58833
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:42:32:19113][pool-1-thread-9] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:58833
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:43:02:49128][pool-1-thread-10] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:58924 : GET / HTTP/1.1
+[2021-05-19 21:43:02:49128][pool-1-thread-10] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:58924
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:43:02:49128][pool-1-thread-10] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:58924
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:43:02:49129][pool-1-thread-11] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:58925 : GET / HTTP/1.1
+[2021-05-19 21:43:02:49129][pool-1-thread-11] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:58925
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:43:02:49129][pool-1-thread-11] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:58925
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:43:02:49130][pool-1-thread-12] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:58926 : GET / HTTP/1.1
+[2021-05-19 21:43:02:49130][pool-1-thread-12] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:58926
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:43:02:49130][pool-1-thread-12] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:58926
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:44:02:109145][pool-1-thread-13] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:59124 : GET / HTTP/1.1
+[2021-05-19 21:44:02:109145][pool-1-thread-13] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:59124
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:44:02:109145][pool-1-thread-13] ERROR com.nhn.was.RequestProcessor - Error Log : /127.0.0.1:59124
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:360)
+	at com.nhn.was.RequestProcessor.run(RequestProcessor.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2021-05-19 21:45:20:149][main] INFO  com.nhn.was.HttpServer - Accepting connections on port 8080
+[2021-05-19 21:45:20:150][main] INFO  com.nhn.was.HttpServer - Document Root: 
+a.com / src/main/resources/a.com
+b.com / src/main/resources/b.com
+[2021-05-19 21:45:36:16226][pool-1-thread-1] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:59414 : GET / HTTP/1.1
+[2021-05-19 21:45:45:24927][pool-1-thread-3] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:59441 : GET / HTTP/1.1
+[2021-05-19 21:46:04:44500][pool-1-thread-4] INFO  com.nhn.was.RequestProcessor - /127.0.0.1:59442 : GET /a HTTP/1.1
+[2021-05-19 21:46:04:44501][pool-1-thread-4] WARN  com.nhn.was.RequestProcessor - Warning Log : GET /a HTTP/1.1 - 404 File Not Found
