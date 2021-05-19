@@ -11,7 +11,7 @@
 * 압축파일명 : was.zip   
   1. 압출파일 해제 후, 해당 디렉토리 위치에서 mvn clean package 명령 실행 -> was.jar 파일 생성됨   
   2. was.jar 파일이 생성되면 java –jar was.jar 명령 실행   
-  3. WAS 가 실행된다 (Config 설정 Port : 8080)   
+  3. WAS 가 실행된다 (Config 설정 Port : 8082)   
   4. 아래 내용에 따라 WAS 동작을 확인한다   
    
 ## 스펙구현   
