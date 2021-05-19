@@ -2,7 +2,7 @@
 # WAS 구현   
 
 ## 사전세팅   
-* WAS 실행을 위한 maven 설치 필요   
+* was.jar 생성을 위한 maven 설치 필요   
 * VirtualHost 기능을 위한 hosts 파일 내 아래 호스트 등록 필요   
   - 127.0.0.1       a.com   
   - 127.0.0.1       b.com   
